@@ -314,13 +314,13 @@ footer {
     }
         /* Hero Section */
     .hero-content {
-        display: none;
+        display: fixed;
     }
     .swiper {
-        display: fixed;
+        display: flex;
     }
     .swiper-slide  img {
-        display: fixed;
+        display: flex;
 
     }
     .nama {
