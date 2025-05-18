@@ -223,7 +223,7 @@ button:hover {
     font-size: 7pt;
     width: 40%;
     margin-top: 0%;
-    margin-left: -5%;
+    margin-left: -10%;
     margin-right: 5%;
     grid-template-columns: repeat(5,1fr);
 }
@@ -356,7 +356,7 @@ footer {
     align-items: center;
     font-size: 1.5em;
     padding: 15px;
-    margin-left: 150px;
+    margin-left: 120px;
     margin-top: 10px;
     display: fixed;
     }
