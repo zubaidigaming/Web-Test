@@ -317,10 +317,10 @@ footer {
         display: none;
     }
     .swiper {
-        display: none;
+        display: fixed;
     }
     .swiper-slide  img {
-        display: none;
+        display: fixed;
 
     }
     .nama {
@@ -356,7 +356,7 @@ footer {
     align-items: center;
     font-size: 1.5em;
     padding: 15px;
-    margin-left: 120px;
+    margin-left: 100px;
     margin-top: 10px;
     display: fixed;
     }
