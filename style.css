@@ -1,10 +1,7 @@
 body {
-    font-family: Bold, sans-serif;
+    font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url(https://cdn.discordapp.com/attachments/1246490424965726288/1373420128149966900/wallpaperflare-cropped_2.jpg?ex=682a58ab&is=6829072b&hm=e21870b044485e9d9eac9f60020ba625d3e8815d9c0a3373d0b984de2ffdec45&);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+    background: #1e0034;
     margin: 0;
 }
 header {
@@ -186,7 +183,7 @@ button:hover {
     display: grid;
     justify-content: center;
     align-content: center;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin: 50px auto;
     --margin-top: 5px;
@@ -196,11 +193,12 @@ button:hover {
 .game-item {
     display: grid;
     background: #4400ff;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 5px;
+    border-radius: 10px;
     text-align: center;
     cursor: pointer;
     transition: 0.3s;
+    
 }
 
 .game-item:hover {
@@ -210,8 +208,8 @@ button:hover {
 }
 
 .game-item img {
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
     margin-bottom: 5px;
 }
 
@@ -219,17 +217,40 @@ button:hover {
 {
     display: grid;
     justify-content: center;
-    font-size: 7pt;
-    width: 20%;
+    font-size: 10pt;
+    width: 10%;
     margin-top: 0%;
     margin-left: 5%;
     margin-right: 5%;
-    grid-template-columns: repeat(3,1fr);
 }
 
 .populer img
 {
     border-radius: 20px;
+}
+
+.yahiko {
+    background: #4400ff;
+    color: white;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 200px;
+}
+
+.ahmad
+{
+    color: white;
+    border-bottom: 1px solid var(--white);
+    font-size: 15pt;
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
 }
 
 footer {
@@ -266,6 +287,8 @@ footer {
     justify-content: center;
     margin-top: 10%;
     font-size: 16pt;
+    width: 80%;
+    padding-left: 2rem;
 }
 
 .card
@@ -360,11 +383,13 @@ footer {
     {
         display: grid;
         justify-content: center;
+        grid-template-columns: repeat(3,1fr);
         font-size: 10pt;
         width: 15%;
         margin-top: 2%;
         margin-left: 5%;
         margin-right: 5%;
+        padding-left: 2rem;
     }
     
     .games {
@@ -440,11 +465,6 @@ footer {
         width: 100%;
         
     }
-}
-
-.link img
-{
-    width: none;
 }
 
 /* Hero Section */
