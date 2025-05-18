@@ -220,7 +220,7 @@ button:hover {
     display: grid;
     justify-content: center;
     font-size: 7pt;
-    width: 10%;
+    width: 20%;
     margin-top: 0%;
     margin-left: 5%;
     margin-right: 5%;
@@ -229,7 +229,7 @@ button:hover {
 
 .populer img
 {
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 footer {
@@ -361,7 +361,7 @@ footer {
         display: grid;
         justify-content: center;
         font-size: 10pt;
-        width: 25%;
+        width: 15%;
         margin-top: 2%;
         margin-left: 5%;
         margin-right: 5%;
